@@ -1,7 +1,7 @@
 body{ 
 	text-align: center;
 	color: white;
-	background-image: url("/images/worldmap.png");
+	background-image: url("../images/worldmap.png");
 	background-size: cover;
 }
 h1{
@@ -16,4 +16,7 @@ li{
 	font-family: Arial, sans-serif;
 	text-align: center;
     list-style-type: none;
+}
+a{
+	color: white
 }
