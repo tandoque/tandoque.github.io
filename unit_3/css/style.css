@@ -1,0 +1,19 @@
+body{ 
+	text-align: center;
+	color: white;
+	background-image: url("images/worldmap.png");
+}
+h1{
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-transform: bolder;
+}
+p{
+    font-family: Arial, sans-serif;
+}
+li{
+	font-family: Arial, sans-serif;
+}
+image{
+	  background-image: 
+}
