@@ -13,6 +13,8 @@ p{
 }
 li{
 	font-family: Arial, sans-serif;
+	text-align: center;
+    list-style-type: none;
 }
 image{
 	  background-image: 
