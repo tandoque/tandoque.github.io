@@ -18,6 +18,8 @@ p{
 	text-align: left;
 	margin: 25px;
 	padding-top: 1px;
+	color: white;
+
 }
 li{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -27,8 +29,9 @@ li{
     line-height: 1.5em;
     list-style-type: square;
 }
-a:link{
-	color: white
-	font-size: 15px;
-	text-align: left;
-}
+a{ 
+	font-family: 'Source Sans Pro', sans-serif
+	color: white;
+	 }
+
+a:hover, a:active {
