@@ -29,9 +29,11 @@ li{
     line-height: 1.5em;
     list-style-type: square;
 }
-a{ 
-	font-family: 'Source Sans Pro', sans-serif
+a:link{ 
 	color: white;
+	font-size: 15px
 	 }
 
-a:hover, a:active {
+a:hover{
+	color: hotpink
+}
