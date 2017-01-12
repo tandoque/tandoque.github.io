@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+
+
+body{ 
+	text-align: center;
+	color: white;
+	background-color: #2D2F49;
+}
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 85px;
+	text-align: left;
+	margin: 20px;
+	width: 100%;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+	text-align: left;
+	margin: 25px;
+	padding-top: 1px;
+	color: white;
+	width: 100%;
+
+}
+
+article{
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+	text-align: left;
+	padding-top: 1px;
+	color: white;
+	width: 80%;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav li a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bolder;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 4px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+
+a:link{ 
+	color: white;
+	font-size: 15px
+}
+
+a:hover{
+	color: hotpink
+	: none;
+}
+
+@media only screen and (max-width: 630px) {
+
+	 nav {
+    float: none;
+  }	
+  nav {
+    float: none;
+  }
+  nav a {
+      margin: 0 1.6em .75em 0;
+  }
+  img {
+    width: 320px;
+  }  
+  #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+ 
+ }
+
+ @media only screen and (max-width: 400px) {
+	h1, 
+
+	nav {
+		display: block;
+		text-align: left;
+	}
+  	h2 {
+		font-size: 1em;
+		display: inline;
+	}
+  	p, ul {
+    margin: 1.8em .6em 0;
+  	}
+
+  	li {
+    	width: 100%;
+    	outline-width: .5em;
+     	height: 2em;
+      	line-height: 2em;
+  	}
+
+    nav a {
+      margin: 0 1em 1em;
+      width: 100%;
+  	} 
+
+   section, div {
+		width: 100%;
+		padding: .6em;
+	}
+	#services {
+		float: none;
+		font-size: 1.4em;
+	}
